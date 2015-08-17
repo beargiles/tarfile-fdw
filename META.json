@@ -1,0 +1,35 @@
+{
+    "name": "tarfile-fdw",
+    "abstract": "A short description",
+    "description": "A long description",
+    "version": "0.0.1",
+    "maintainer": "Bear Giles <bgiles@coyotesong.com>",
+    "license": "postgresql",
+    "provides": {
+        "tarfile-fdw": {
+            "abstract": "A short description",
+            "file": "sql/tarfile-fdw.sql",
+            "docfile": "doc/tarfile-fdw.md",
+            "version": "0.0.1"
+        }
+    },
+    "release_status": "unstable",
+    "resources": {
+        "bugtracker": {
+            "web": "http://change.me"
+        },
+        "repository": {
+          "url":  "git://change.me/tarfile-fdw.git",
+          "web":  "http://change.me",
+          "type": "git"
+        }
+    },
+
+    "generated_by": "Bear Giles <bgiles@coyotesong.com>",
+
+
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    }
+}

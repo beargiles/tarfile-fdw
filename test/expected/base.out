@@ -1,0 +1,9 @@
+\set ECHO 0
+-- You should write your tests
+SELECT tarfile-fdw('test');
+ tarfile-fdw 
+-------------
+ 
+(1 row)
+
+ROLLBACK;
